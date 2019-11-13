@@ -33,6 +33,6 @@ public class SceneSwitch : MonoBehaviour
 
     public void GoToBack()
     {
-        SceneManager.LoadScene("Back", LoadSceneMode.Additive);
+        SceneManager.LoadScene("MainMenu", LoadSceneMode.Additive);
     }
 }

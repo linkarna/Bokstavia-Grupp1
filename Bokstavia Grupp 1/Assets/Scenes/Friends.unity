@@ -330,6 +330,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ce336b9d76af474f88fb4f040cf0258, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Start: {fileID: 0}
 --- !u!4 &487539484
 Transform:
   m_ObjectHideFlags: 0
@@ -552,7 +553,7 @@ RectTransform:
   m_GameObject: {fileID: 682199448}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 4, y: 13, z: 1}
+  m_LocalScale: {x: 7.202, y: 13, z: 1}
   m_Children:
   - {fileID: 615227004}
   m_Father: {fileID: 680236258}
@@ -560,7 +561,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -374, y: -1073}
+  m_AnchoredPosition: {x: 17, y: -1073}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &682199450
@@ -603,8 +604,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: GoToMenuScene
+      - m_Target: {fileID: 487539483}
+        m_MethodName: GoToBack
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -636,7 +637,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 89e2213df5b40bf4bb0607fc93ba43ee, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 773f28a0896a2a8449ee15e3d21c7cf2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
