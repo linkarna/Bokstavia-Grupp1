@@ -9,21 +9,26 @@ public class SceneSwitch : MonoBehaviour
     // Start is called before the first frame update
     public void GoToMenuScene()
     {
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("MainMenu", LoadSceneMode.Additive);
     }
 
     public void GoToFriend()
     {
-        SceneManager.LoadScene("Friends");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
     }
 
     public void GoToStatics()
     {
-        SceneManager.LoadScene("Static");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 4);
     }
 
     public void GoToMedals()
     {
-        SceneManager.LoadScene("Medals");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
+    }
+
+    public void GoToBack()
+    {
+        SceneManager.LoadScene("Back", LoadSceneMode.Additive);
     }
 }
