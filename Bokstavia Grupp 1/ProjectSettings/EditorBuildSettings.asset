@@ -14,4 +14,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/MainMenu.unity
     guid: 05c80cddb7addea46a2cda06c294cc47
+  - enabled: 1
+    path: Assets/Scenes/Medals.unity
+    guid: 363a449ca0524bb4e88de8e58ba01825
+  - enabled: 1
+    path: Assets/Scenes/Static.unity
+    guid: 4a3ee3dd016f37d4c961ddcfc973403e
+  - enabled: 1
+    path: Assets/Scenes/Friends.unity
+    guid: 021e1270522954f43afe06ea1cd6bab8
   m_configObjects: {}

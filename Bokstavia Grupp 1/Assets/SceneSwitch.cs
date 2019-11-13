@@ -12,4 +12,18 @@ public class SceneSwitch : MonoBehaviour
         SceneManager.LoadScene("MainMenu");
     }
 
+    public void GoToFriend()
+    {
+        SceneManager.LoadScene("Friends");
+    }
+
+    public void GoToStatics()
+    {
+        SceneManager.LoadScene("Static");
+    }
+
+    public void GoToMedals()
+    {
+        SceneManager.LoadScene("Medals");
+    }
 }
