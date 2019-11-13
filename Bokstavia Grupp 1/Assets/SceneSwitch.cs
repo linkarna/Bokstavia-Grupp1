@@ -5,11 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class SceneSwitch : MonoBehaviour
 {
-    
+
     // Start is called before the first frame update
+    public GameObject Start;
     public void GoToMenuScene()
     {
         SceneManager.LoadScene("MainMenu", LoadSceneMode.Additive);
+
+        Start.SetActive(false);
+
     }
 
     public void GoToFriend()
