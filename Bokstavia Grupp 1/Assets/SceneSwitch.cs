@@ -8,10 +8,14 @@ public class SceneSwitch : MonoBehaviour
 
     // Start is called before the first frame update
     public GameObject Start;
+    public GameObject Back;
+
     public void GoToMenuScene()
     {
         SceneManager.LoadScene("MainMenu", LoadSceneMode.Additive);
+
         Start.SetActive(false);
+
     }
 
     public void GoToFriend()
@@ -31,6 +35,7 @@ public class SceneSwitch : MonoBehaviour
 
     public void GoToBack()
     {
-        SceneManager.LoadScene("Back", LoadSceneMode.Additive);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        Back.SetActive(false);
     }
 }
