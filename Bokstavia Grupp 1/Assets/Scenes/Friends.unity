@@ -331,6 +331,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Start: {fileID: 0}
+  Back: {fileID: 0}
 --- !u!4 &487539484
 Transform:
   m_ObjectHideFlags: 0
@@ -605,7 +606,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 487539483}
-        m_MethodName: GoToBack
+        m_MethodName: GoToMenuScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
